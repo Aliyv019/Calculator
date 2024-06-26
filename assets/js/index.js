@@ -93,4 +93,4 @@ function divisionoperate(){
     num8.addEventListener('click',()=>{if(screen_text.textContent=="0"){screen_text.textContent=""}if(screen_text.textContent.length<9){screen_text.textContent+=num8.textContent}})
     num9.addEventListener('click',()=>{if(screen_text.textContent=="0"){screen_text.textContent=""}if(screen_text.textContent.length<9){screen_text.textContent+=num9.textContent}})
     
-    clear.addEventListener('click',()=>{sum0="";screen_text.textContent="0"})
+    clear.addEventListener('click',()=>{window.location.reload()})
