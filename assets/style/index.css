@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #9CA3AF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main{
+    width: 15%;
+    height: 30%;
+}
+.screen{
+    background:black;
+    border-radius: 16px+16px+0+0;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    padding: 16px+32px;
+    justify-content: end;
+}
+.buttons{
+    background: white;
+    border-radius: 0+0+16px+16px;
+    width: 100%;
+    height: 75%;
+}
+.buttons button{
+    width: 23%;
+    border: none;
+    border-radius: 5px;
+    
+    /* height: 18%; */
+}
+.numbers_c button:active{
+    background: #E6EAF1;
+}
+.screen p{
+    color: white;
+    text-align: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+}
+.buttons{
+    padding: 15px;
+}
+.operations button{
+    height: 90%;
+    background: #6B7280;
+}
+.operations button:active{
+    background: #656970;
+}
+.operations{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers_c_equal{
+    height: 80%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.numbers_c_equal button {
+    background: #D1D5DB;
+}
+.numbers_c button{
+    width: 30.666%;
+    height: 20%;
+}
+.numbers_c{
+    width: 74.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.equal{
+    height: 95%;
+    
+}
+/* .clear:active{
+    background: #DB8080;
+} */
